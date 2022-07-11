@@ -1,0 +1,32 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  background-color: rgb(38, 77, 77);
+  color: white;
+}
+
+h1 {
+  margin: 20px;
+}
+
+.pictures {
+  display: flex;
+  gap: 5px;
+}
+
+.card {
+  margin: 15px;
+  border-radius: 10px;
+  color: rgb(38, 77, 77);
+  background-color: aliceblue;
+  padding: 0;
+  padding-bottom: 15px;
+}
+
+.row img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
