@@ -39,7 +39,7 @@ export default function BasicModal({ movie }) {
           <Typography id="modal-modal-description" sx={{ mt: 2 }}>
             <div className="pictures">
               {movie.known_for.map((film) => (
-                <div>
+                <div key={film.poster_path}>
                   <img src={imgUrl + film.poster_path} alt="" />
                   <p>{film.title}</p>
                 </div>
